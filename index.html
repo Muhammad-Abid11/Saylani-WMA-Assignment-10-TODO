@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo Application</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBDQdSHega3IVE-HISNrlJljYoazflZ-Tw",
+            authDomain: "todo-abid.firebaseapp.com",
+            databaseURL: "https://todo-abid.firebaseio.com",
+            projectId: "todo-abid",
+            storageBucket: "todo-abid.appspot.com",
+            messagingSenderId: "700464864287",
+            appId: "1:700464864287:web:a41e84e12c1ef59a07092a",
+            measurementId: "G-WJW1QC62PF"
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </head>
 
 <body>

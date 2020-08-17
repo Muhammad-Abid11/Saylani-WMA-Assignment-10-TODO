@@ -15,10 +15,11 @@ body {
   cursor: pointer;
   background-color: royalblue;
 }
-:hover#btnHover {
+:hover#btnHover,
+:hover.btnHover {
   background-color: royalblue;
   cursor: pointer;
 }
 li {
-  list-style: square;
+  list-style: circle;
 }
